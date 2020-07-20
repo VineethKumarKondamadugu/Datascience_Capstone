@@ -1,0 +1,1780 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_b6ee5e0586894f81a2e5ae9ddba22845 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b6ee5e0586894f81a2e5ae9ddba22845" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_b6ee5e0586894f81a2e5ae9ddba22845 = L.map(
+                                  'map_b6ee5e0586894f81a2e5ae9ddba22845',
+                                  {center: [39.1014537,-84.5124602],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_70d904b2e6e44e8cb6f9b69b2dc4b2ed = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+        
+    
+            var circle_marker_2eb7c9d843a54467b1c29d49823504d1 = L.circleMarker(
+                [39.147710000000075,-84.49489999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_fa6e1dd4bb2142b6abf47bcf2ae060c6 = L.popup({maxWidth: '300'});
+
+            
+                var html_b3f56740afa54f01adf52b8cc10821a1 = $('<div id="html_b3f56740afa54f01adf52b8cc10821a1" style="width: 100.0%; height: 100.0%;">Avondale, Cincinnati</div>')[0];
+                popup_fa6e1dd4bb2142b6abf47bcf2ae060c6.setContent(html_b3f56740afa54f01adf52b8cc10821a1);
+            
+
+            circle_marker_2eb7c9d843a54467b1c29d49823504d1.bindPopup(popup_fa6e1dd4bb2142b6abf47bcf2ae060c6);
+
+            
+        
+    
+            var circle_marker_4c54b34605cc4a128e9b60aa785ac9d1 = L.circleMarker(
+                [39.174600000000055,-84.46714999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_348bdbe7eb534fe797fcbcf56acbe76c = L.popup({maxWidth: '300'});
+
+            
+                var html_cf60722693d84428a19aad2c37e94758 = $('<div id="html_cf60722693d84428a19aad2c37e94758" style="width: 100.0%; height: 100.0%;">Bond Hill, Cincinnati</div>')[0];
+                popup_348bdbe7eb534fe797fcbcf56acbe76c.setContent(html_cf60722693d84428a19aad2c37e94758);
+            
+
+            circle_marker_4c54b34605cc4a128e9b60aa785ac9d1.bindPopup(popup_348bdbe7eb534fe797fcbcf56acbe76c);
+
+            
+        
+    
+            var circle_marker_6a101de4d98344459368a6e6076e6120 = L.circleMarker(
+                [39.065360000000055,-84.42364999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_3fd8175d964d4205a2fb3e3e5e747563 = L.popup({maxWidth: '300'});
+
+            
+                var html_d73fdd1165f5482a9fad0d5161e2a4bf = $('<div id="html_d73fdd1165f5482a9fad0d5161e2a4bf" style="width: 100.0%; height: 100.0%;">California, Cincinnati</div>')[0];
+                popup_3fd8175d964d4205a2fb3e3e5e747563.setContent(html_d73fdd1165f5482a9fad0d5161e2a4bf);
+            
+
+            circle_marker_6a101de4d98344459368a6e6076e6120.bindPopup(popup_3fd8175d964d4205a2fb3e3e5e747563);
+
+            
+        
+    
+            var circle_marker_16d6adada81e4f0c9e389e2f7113c6ea = L.circleMarker(
+                [39.13691000000006,-84.53729999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_0b27a3d971f44088a1a5a3ef26855c52 = L.popup({maxWidth: '300'});
+
+            
+                var html_063122959634485c9e3005dd596be3d2 = $('<div id="html_063122959634485c9e3005dd596be3d2" style="width: 100.0%; height: 100.0%;">Camp Washington, Cincinnati</div>')[0];
+                popup_0b27a3d971f44088a1a5a3ef26855c52.setContent(html_063122959634485c9e3005dd596be3d2);
+            
+
+            circle_marker_16d6adada81e4f0c9e389e2f7113c6ea.bindPopup(popup_0b27a3d971f44088a1a5a3ef26855c52);
+
+            
+        
+    
+            var circle_marker_cb6a80607b344e37b09e3b38dda4a340 = L.circleMarker(
+                [39.19733000000008,-84.48061999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_4b48365986eb4ce2a0da1596974dcd9e = L.popup({maxWidth: '300'});
+
+            
+                var html_9176ba05a96d47c0bb9c01abe426bde1 = $('<div id="html_9176ba05a96d47c0bb9c01abe426bde1" style="width: 100.0%; height: 100.0%;">Carthage, Cincinnati</div>')[0];
+                popup_4b48365986eb4ce2a0da1596974dcd9e.setContent(html_9176ba05a96d47c0bb9c01abe426bde1);
+            
+
+            circle_marker_cb6a80607b344e37b09e3b38dda4a340.bindPopup(popup_4b48365986eb4ce2a0da1596974dcd9e);
+
+            
+        
+    
+            var circle_marker_415ec3d65d4f4be6aeec43514b897f8c = L.circleMarker(
+                [39.150270000000035,-84.51824999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_932be00ab31c474f8b0b44bf69d1754e = L.popup({maxWidth: '300'});
+
+            
+                var html_d7021d599d6a465aaa23d1276536dc9d = $('<div id="html_d7021d599d6a465aaa23d1276536dc9d" style="width: 100.0%; height: 100.0%;">Clifton, Cincinnati</div>')[0];
+                popup_932be00ab31c474f8b0b44bf69d1754e.setContent(html_d7021d599d6a465aaa23d1276536dc9d);
+            
+
+            circle_marker_415ec3d65d4f4be6aeec43514b897f8c.bindPopup(popup_932be00ab31c474f8b0b44bf69d1754e);
+
+            
+        
+    
+            var circle_marker_da9167abc7954c39ae7d6e2377750461 = L.circleMarker(
+                [39.202870000000075,-84.54767999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_2fa74111faf14eda9a65a9a64c9fdb4d = L.popup({maxWidth: '300'});
+
+            
+                var html_f1b1cdba82694e02a5a72dc2d728fd9d = $('<div id="html_f1b1cdba82694e02a5a72dc2d728fd9d" style="width: 100.0%; height: 100.0%;">College Hill, Cincinnati</div>')[0];
+                popup_2fa74111faf14eda9a65a9a64c9fdb4d.setContent(html_f1b1cdba82694e02a5a72dc2d728fd9d);
+            
+
+            circle_marker_da9167abc7954c39ae7d6e2377750461.bindPopup(popup_2fa74111faf14eda9a65a9a64c9fdb4d);
+
+            
+        
+    
+            var circle_marker_fe30da7b67864614bbc9d4d4aed4d791 = L.circleMarker(
+                [39.11569000000003,-84.43153999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_596b28e8e7844015bd9b3010fec7bc82 = L.popup({maxWidth: '300'});
+
+            
+                var html_df3528012fcb458da5a532f811f43e2f = $('<div id="html_df3528012fcb458da5a532f811f43e2f" style="width: 100.0%; height: 100.0%;">Columbia-Tusculum, Cincinnati</div>')[0];
+                popup_596b28e8e7844015bd9b3010fec7bc82.setContent(html_df3528012fcb458da5a532f811f43e2f);
+            
+
+            circle_marker_fe30da7b67864614bbc9d4d4aed4d791.bindPopup(popup_596b28e8e7844015bd9b3010fec7bc82);
+
+            
+        
+    
+            var circle_marker_d0537149c54b423da6650f24e61c9656 = L.circleMarker(
+                [39.13432000000006,-84.50573999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_afb656d2f443413d9965c0e79deaada5 = L.popup({maxWidth: '300'});
+
+            
+                var html_19d04fcafec64c50b615de7e25c22972 = $('<div id="html_19d04fcafec64c50b615de7e25c22972" style="width: 100.0%; height: 100.0%;">Corryville, Cincinnati</div>')[0];
+                popup_afb656d2f443413d9965c0e79deaada5.setContent(html_19d04fcafec64c50b615de7e25c22972);
+            
+
+            circle_marker_d0537149c54b423da6650f24e61c9656.bindPopup(popup_afb656d2f443413d9965c0e79deaada5);
+
+            
+        
+    
+            var circle_marker_6c9fafa739cb4e86bb74cff2087d4256 = L.circleMarker(
+                [39.12143000000003,-84.60407999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_c61cf47d97664707909977fdcbe08095 = L.popup({maxWidth: '300'});
+
+            
+                var html_c1d4049a672541c8b492f1024ee7c313 = $('<div id="html_c1d4049a672541c8b492f1024ee7c313" style="width: 100.0%; height: 100.0%;">Covedale, Cincinnati</div>')[0];
+                popup_c61cf47d97664707909977fdcbe08095.setContent(html_c1d4049a672541c8b492f1024ee7c313);
+            
+
+            circle_marker_6c9fafa739cb4e86bb74cff2087d4256.bindPopup(popup_c61cf47d97664707909977fdcbe08095);
+
+            
+        
+    
+            var circle_marker_94020eaed3af41508e0670021fd454a5 = L.circleMarker(
+                [39.162000000000035,-84.45688999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_862bc51938c44211a2bad8e72a8e8750 = L.popup({maxWidth: '300'});
+
+            
+                var html_3961d2ba71ff48ab850246b363758c3a = $('<div id="html_3961d2ba71ff48ab850246b363758c3a" style="width: 100.0%; height: 100.0%;">CUF, Cincinnati</div>')[0];
+                popup_862bc51938c44211a2bad8e72a8e8750.setContent(html_3961d2ba71ff48ab850246b363758c3a);
+            
+
+            circle_marker_94020eaed3af41508e0670021fd454a5.bindPopup(popup_862bc51938c44211a2bad8e72a8e8750);
+
+            
+        
+    
+            var circle_marker_f157a0d9d7dd44719d54df6ff3e57fe7 = L.circleMarker(
+                [39.097230000000025,-84.51963999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_299a793bc10e485bb660b3b82befe8a6 = L.popup({maxWidth: '300'});
+
+            
+                var html_49ca6b024ce244a1828fc81d82f90e54 = $('<div id="html_49ca6b024ce244a1828fc81d82f90e54" style="width: 100.0%; height: 100.0%;">Downtown Cincinnati</div>')[0];
+                popup_299a793bc10e485bb660b3b82befe8a6.setContent(html_49ca6b024ce244a1828fc81d82f90e54);
+            
+
+            circle_marker_f157a0d9d7dd44719d54df6ff3e57fe7.bindPopup(popup_299a793bc10e485bb660b3b82befe8a6);
+
+            
+        
+    
+            var circle_marker_8b062a25b4d5428e96fcbee8cfae58dd = L.circleMarker(
+                [39.09996000000007,-84.42777999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_ea5ad99bdbe54e8c824d4aec9545b2e1 = L.popup({maxWidth: '300'});
+
+            
+                var html_538f092f7f4a41cdb3c0e581746f259e = $('<div id="html_538f092f7f4a41cdb3c0e581746f259e" style="width: 100.0%; height: 100.0%;">East End, Cincinnati</div>')[0];
+                popup_ea5ad99bdbe54e8c824d4aec9545b2e1.setContent(html_538f092f7f4a41cdb3c0e581746f259e);
+            
+
+            circle_marker_8b062a25b4d5428e96fcbee8cfae58dd.bindPopup(popup_ea5ad99bdbe54e8c824d4aec9545b2e1);
+
+            
+        
+    
+            var circle_marker_ac49b5e798214050af4b47fc6bd02421 = L.circleMarker(
+                [39.12666000000007,-84.47331999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_b7d5701af9c745119c88e4ee2ca58ee2 = L.popup({maxWidth: '300'});
+
+            
+                var html_1a848dd013144e6faa21a200fb8bfccd = $('<div id="html_1a848dd013144e6faa21a200fb8bfccd" style="width: 100.0%; height: 100.0%;">East Walnut Hills, Cincinnati</div>')[0];
+                popup_b7d5701af9c745119c88e4ee2ca58ee2.setContent(html_1a848dd013144e6faa21a200fb8bfccd);
+            
+
+            circle_marker_ac49b5e798214050af4b47fc6bd02421.bindPopup(popup_b7d5701af9c745119c88e4ee2ca58ee2);
+
+            
+        
+    
+            var circle_marker_2010c15455204b76aae81ab5af7aff91 = L.circleMarker(
+                [39.149910000000034,-84.56418999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_071f9bf2416e43dd98fb7edbbcd8cebb = L.popup({maxWidth: '300'});
+
+            
+                var html_3080209049944da4baf95d6f5c5d8c88 = $('<div id="html_3080209049944da4baf95d6f5c5d8c88" style="width: 100.0%; height: 100.0%;">East Westwood, Cincinnati</div>')[0];
+                popup_071f9bf2416e43dd98fb7edbbcd8cebb.setContent(html_3080209049944da4baf95d6f5c5d8c88);
+            
+
+            circle_marker_2010c15455204b76aae81ab5af7aff91.bindPopup(popup_071f9bf2416e43dd98fb7edbbcd8cebb);
+
+            
+        
+    
+            var circle_marker_4040432f9f524c0c806f6de4ffcadbf7 = L.circleMarker(
+                [39.140220000000056,-84.55720999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_f7f9354a196848bab5f3aa560128c41a = L.popup({maxWidth: '300'});
+
+            
+                var html_38650ecb6cd341e9a1388afb7609c388 = $('<div id="html_38650ecb6cd341e9a1388afb7609c388" style="width: 100.0%; height: 100.0%;">English Woods, Cincinnati</div>')[0];
+                popup_f7f9354a196848bab5f3aa560128c41a.setContent(html_38650ecb6cd341e9a1388afb7609c388);
+            
+
+            circle_marker_4040432f9f524c0c806f6de4ffcadbf7.bindPopup(popup_f7f9354a196848bab5f3aa560128c41a);
+
+            
+        
+    
+            var circle_marker_da208679db194114903a02454ffb89ef = L.circleMarker(
+                [39.14452000000006,-84.46946999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_11f0248749374546a7e6a9eca1061da2 = L.popup({maxWidth: '300'});
+
+            
+                var html_cd7a56f490af4ee099673a7e626c5583 = $('<div id="html_cd7a56f490af4ee099673a7e626c5583" style="width: 100.0%; height: 100.0%;">Evanston, Cincinnati</div>')[0];
+                popup_11f0248749374546a7e6a9eca1061da2.setContent(html_cd7a56f490af4ee099673a7e626c5583);
+            
+
+            circle_marker_da208679db194114903a02454ffb89ef.bindPopup(popup_11f0248749374546a7e6a9eca1061da2);
+
+            
+        
+    
+            var circle_marker_9541fbb57ef14e208f342990bf7638c1 = L.circleMarker(
+                [39.21339000000006,-84.46936999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_8ae4f1a33fce4435ac942a40b4add9d5 = L.popup({maxWidth: '300'});
+
+            
+                var html_f34cde96b3eb448f88e67e8c2608731c = $('<div id="html_f34cde96b3eb448f88e67e8c2608731c" style="width: 100.0%; height: 100.0%;">Hartwell, Cincinnati</div>')[0];
+                popup_8ae4f1a33fce4435ac942a40b4add9d5.setContent(html_f34cde96b3eb448f88e67e8c2608731c);
+            
+
+            circle_marker_9541fbb57ef14e208f342990bf7638c1.bindPopup(popup_8ae4f1a33fce4435ac942a40b4add9d5);
+
+            
+        
+    
+            var circle_marker_0bf9cc756a404a9da78a371b1b9496d4 = L.circleMarker(
+                [39.14219000000003,-84.43422999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_9b3b1b0274ac4c48a8a2df507cb4a2ea = L.popup({maxWidth: '300'});
+
+            
+                var html_c9045a4c3fec437ab48f533bad8a962d = $('<div id="html_c9045a4c3fec437ab48f533bad8a962d" style="width: 100.0%; height: 100.0%;">Hyde Park, Cincinnati</div>')[0];
+                popup_9b3b1b0274ac4c48a8a2df507cb4a2ea.setContent(html_c9045a4c3fec437ab48f533bad8a962d);
+            
+
+            circle_marker_0bf9cc756a404a9da78a371b1b9496d4.bindPopup(popup_9b3b1b0274ac4c48a8a2df507cb4a2ea);
+
+            
+        
+    
+            var circle_marker_b20c5d6715bf443a9bdaadd3e1b8db93 = L.circleMarker(
+                [39.18574000000007,-84.40818999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_842a3e040474422f9b312116526e07ae = L.popup({maxWidth: '300'});
+
+            
+                var html_e623aed0f103422db01376df87707684 = $('<div id="html_e623aed0f103422db01376df87707684" style="width: 100.0%; height: 100.0%;">Kennedy Heights, Cincinnati</div>')[0];
+                popup_842a3e040474422f9b312116526e07ae.setContent(html_e623aed0f103422db01376df87707684);
+            
+
+            circle_marker_b20c5d6715bf443a9bdaadd3e1b8db93.bindPopup(popup_842a3e040474422f9b312116526e07ae);
+
+            
+        
+    
+            var circle_marker_dc6a2884e5fb4201893f15834be85fe2 = L.circleMarker(
+                [39.12391000000008,-84.41038999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_bdde89d2b5bd41919a5d046f23b85a6d = L.popup({maxWidth: '300'});
+
+            
+                var html_e426a918a8c14881a4d9a4ebee9fe41a = $('<div id="html_e426a918a8c14881a4d9a4ebee9fe41a" style="width: 100.0%; height: 100.0%;">Linwood, Cincinnati</div>')[0];
+                popup_bdde89d2b5bd41919a5d046f23b85a6d.setContent(html_e426a918a8c14881a4d9a4ebee9fe41a);
+            
+
+            circle_marker_dc6a2884e5fb4201893f15834be85fe2.bindPopup(popup_bdde89d2b5bd41919a5d046f23b85a6d);
+
+            
+        
+    
+            var circle_marker_e3a49d97c7de4648a58793167d850e8e = L.circleMarker(
+                [39.157380000000046,-84.39102999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_bddb7704a20243899dfb441a03c8d50b = L.popup({maxWidth: '300'});
+
+            
+                var html_fad2a7c7f9a548faa0bf9c9ca4e387e0 = $('<div id="html_fad2a7c7f9a548faa0bf9c9ca4e387e0" style="width: 100.0%; height: 100.0%;">Madisonville, Cincinnati</div>')[0];
+                popup_bddb7704a20243899dfb441a03c8d50b.setContent(html_fad2a7c7f9a548faa0bf9c9ca4e387e0);
+            
+
+            circle_marker_e3a49d97c7de4648a58793167d850e8e.bindPopup(popup_bddb7704a20243899dfb441a03c8d50b);
+
+            
+        
+    
+            var circle_marker_47705f39ce42484384f19a879b482918 = L.circleMarker(
+                [39.14443000000006,-84.55206999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_9b73804926284a79952da9ef0555d3b0 = L.popup({maxWidth: '300'});
+
+            
+                var html_5c7ca66e9a634e1f9266f25b8fde826d = $('<div id="html_5c7ca66e9a634e1f9266f25b8fde826d" style="width: 100.0%; height: 100.0%;">Millvale, Cincinnati</div>')[0];
+                popup_9b73804926284a79952da9ef0555d3b0.setContent(html_5c7ca66e9a634e1f9266f25b8fde826d);
+            
+
+            circle_marker_47705f39ce42484384f19a879b482918.bindPopup(popup_9b73804926284a79952da9ef0555d3b0);
+
+            
+        
+    
+            var circle_marker_04883087ff274159a8916ffc27b12e04 = L.circleMarker(
+                [39.109200000000044,-84.49638999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_84ff05f3b7034591874027a96adb50e7 = L.popup({maxWidth: '300'});
+
+            
+                var html_a196c4d227c64b3b930a9daebee221e4 = $('<div id="html_a196c4d227c64b3b930a9daebee221e4" style="width: 100.0%; height: 100.0%;">Mount Adams, Cincinnati</div>')[0];
+                popup_84ff05f3b7034591874027a96adb50e7.setContent(html_a196c4d227c64b3b930a9daebee221e4);
+            
+
+            circle_marker_04883087ff274159a8916ffc27b12e04.bindPopup(popup_84ff05f3b7034591874027a96adb50e7);
+
+            
+        
+    
+            var circle_marker_4d699e312f734ab393ad9310290cd7b0 = L.circleMarker(
+                [39.19172000000003,-84.56892999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_88dfe9d3d3b649a68566f082d4763290 = L.popup({maxWidth: '300'});
+
+            
+                var html_3fed77169ce241bfa05a6c4d87ee8402 = $('<div id="html_3fed77169ce241bfa05a6c4d87ee8402" style="width: 100.0%; height: 100.0%;">Mount Airy, Cincinnati</div>')[0];
+                popup_88dfe9d3d3b649a68566f082d4763290.setContent(html_3fed77169ce241bfa05a6c4d87ee8402);
+            
+
+            circle_marker_4d699e312f734ab393ad9310290cd7b0.bindPopup(popup_88dfe9d3d3b649a68566f082d4763290);
+
+            
+        
+    
+            var circle_marker_818ff43663a24245aef635d1313a11c8 = L.circleMarker(
+                [39.120340000000056,-84.50827999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_5451e91c39ee4ac1864e575f62d319e6 = L.popup({maxWidth: '300'});
+
+            
+                var html_ffc9ce85b84a4ca3a0afa7235b7ea052 = $('<div id="html_ffc9ce85b84a4ca3a0afa7235b7ea052" style="width: 100.0%; height: 100.0%;">Mount Auburn Historic District</div>')[0];
+                popup_5451e91c39ee4ac1864e575f62d319e6.setContent(html_ffc9ce85b84a4ca3a0afa7235b7ea052);
+            
+
+            circle_marker_818ff43663a24245aef635d1313a11c8.bindPopup(popup_5451e91c39ee4ac1864e575f62d319e6);
+
+            
+        
+    
+            var circle_marker_505c87c2590840aebe2ed78c3cfe9e66 = L.circleMarker(
+                [39.128730000000076,-84.43021999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_1486c2c37adb4512a08cb3ac0396b448 = L.popup({maxWidth: '300'});
+
+            
+                var html_4508a2e6827b473ebc3763fa80b92f09 = $('<div id="html_4508a2e6827b473ebc3763fa80b92f09" style="width: 100.0%; height: 100.0%;">Mount Lookout, Cincinnati</div>')[0];
+                popup_1486c2c37adb4512a08cb3ac0396b448.setContent(html_4508a2e6827b473ebc3763fa80b92f09);
+            
+
+            circle_marker_505c87c2590840aebe2ed78c3cfe9e66.bindPopup(popup_1486c2c37adb4512a08cb3ac0396b448);
+
+            
+        
+    
+            var circle_marker_c9d0aee35ace4e5caaa8e52eabac0e0d = L.circleMarker(
+                [39.086250000000064,-84.38650999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_e656f42a30d54fcb89c95cb546f7e24e = L.popup({maxWidth: '300'});
+
+            
+                var html_ed51e983f8714b5c8e09b949fda32d20 = $('<div id="html_ed51e983f8714b5c8e09b949fda32d20" style="width: 100.0%; height: 100.0%;">Mount Washington, Cincinnati</div>')[0];
+                popup_e656f42a30d54fcb89c95cb546f7e24e.setContent(html_ed51e983f8714b5c8e09b949fda32d20);
+            
+
+            circle_marker_c9d0aee35ace4e5caaa8e52eabac0e0d.bindPopup(popup_e656f42a30d54fcb89c95cb546f7e24e);
+
+            
+        
+    
+            var circle_marker_b7b49dfd64d04bff92871e7493f17da0 = L.circleMarker(
+                [39.15432000000004,-84.48843999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_fd2e850a13fc46ef906300c8286a9c78 = L.popup({maxWidth: '300'});
+
+            
+                var html_4356faa193d74588877afdc5e9ceab81 = $('<div id="html_4356faa193d74588877afdc5e9ceab81" style="width: 100.0%; height: 100.0%;">North Avondale, Cincinnati</div>')[0];
+                popup_fd2e850a13fc46ef906300c8286a9c78.setContent(html_4356faa193d74588877afdc5e9ceab81);
+            
+
+            circle_marker_b7b49dfd64d04bff92871e7493f17da0.bindPopup(popup_fd2e850a13fc46ef906300c8286a9c78);
+
+            
+        
+    
+            var circle_marker_394b2f559454438cb6691fd867e8dd57 = L.circleMarker(
+                [39.135890000000074,-84.55686999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_dfd32d64287b479dabfa2c98815b588d = L.popup({maxWidth: '300'});
+
+            
+                var html_ff711a54a42440d6a45506412c2575e5 = $('<div id="html_ff711a54a42440d6a45506412c2575e5" style="width: 100.0%; height: 100.0%;">North Fairmount, Cincinnati</div>')[0];
+                popup_dfd32d64287b479dabfa2c98815b588d.setContent(html_ff711a54a42440d6a45506412c2575e5);
+            
+
+            circle_marker_394b2f559454438cb6691fd867e8dd57.bindPopup(popup_dfd32d64287b479dabfa2c98815b588d);
+
+            
+        
+    
+            var circle_marker_769c4739ed7f48469c4478e369d54eab = L.circleMarker(
+                [39.16547000000003,-84.54112999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_598c1a85493a4d20a973af087c3a005c = L.popup({maxWidth: '300'});
+
+            
+                var html_1b1e7230db4c4b80b3096daa506d8c32 = $('<div id="html_1b1e7230db4c4b80b3096daa506d8c32" style="width: 100.0%; height: 100.0%;">Northside, Cincinnati</div>')[0];
+                popup_598c1a85493a4d20a973af087c3a005c.setContent(html_1b1e7230db4c4b80b3096daa506d8c32);
+            
+
+            circle_marker_769c4739ed7f48469c4478e369d54eab.bindPopup(popup_598c1a85493a4d20a973af087c3a005c);
+
+            
+        
+    
+            var circle_marker_71f183a1b475469eb7e7264ac4327bcb = L.circleMarker(
+                [39.15333000000004,-84.42485999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_6a89c0e553b94852aec0857f541a7a3c = L.popup({maxWidth: '300'});
+
+            
+                var html_2ee6b5154532423f878e99ee4b11da0f = $('<div id="html_2ee6b5154532423f878e99ee4b11da0f" style="width: 100.0%; height: 100.0%;">Oakley, Cincinnati</div>')[0];
+                popup_6a89c0e553b94852aec0857f541a7a3c.setContent(html_2ee6b5154532423f878e99ee4b11da0f);
+            
+
+            circle_marker_71f183a1b475469eb7e7264ac4327bcb.bindPopup(popup_6a89c0e553b94852aec0857f541a7a3c);
+
+            
+        
+    
+            var circle_marker_1b8c91107d304667b8bedbfbac0727e5 = L.circleMarker(
+                [39.11145000000005,-84.51521999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_b1056c761be04be5b428e8e7c39f526b = L.popup({maxWidth: '300'});
+
+            
+                var html_f0c9dd0003794a2daa91bc3fd459f68c = $('<div id="html_f0c9dd0003794a2daa91bc3fd459f68c" style="width: 100.0%; height: 100.0%;">Over-the-Rhine</div>')[0];
+                popup_b1056c761be04be5b428e8e7c39f526b.setContent(html_f0c9dd0003794a2daa91bc3fd459f68c);
+            
+
+            circle_marker_1b8c91107d304667b8bedbfbac0727e5.bindPopup(popup_b1056c761be04be5b428e8e7c39f526b);
+
+            
+        
+    
+            var circle_marker_ddb099a00cde4d43a7cb4e680221cfe4 = L.circleMarker(
+                [39.164370000000076,-84.47838999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_dd0117f46e184c87b2552edfda4f4a0a = L.popup({maxWidth: '300'});
+
+            
+                var html_fb6a90ea49b444348bf1c81b929857b8 = $('<div id="html_fb6a90ea49b444348bf1c81b929857b8" style="width: 100.0%; height: 100.0%;">Paddock Hills, Cincinnati</div>')[0];
+                popup_dd0117f46e184c87b2552edfda4f4a0a.setContent(html_fb6a90ea49b444348bf1c81b929857b8);
+            
+
+            circle_marker_ddb099a00cde4d43a7cb4e680221cfe4.bindPopup(popup_dd0117f46e184c87b2552edfda4f4a0a);
+
+            
+        
+    
+            var circle_marker_6a78c6fdb49c422c9183d0fe6adfa901 = L.circleMarker(
+                [39.110301722681186,-84.50690262631586],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_98ac7724cd9c423db17feb6dfd70f1cb = L.popup({maxWidth: '300'});
+
+            
+                var html_136c5e122f9546f7aed28f2b1a968a1e = $('<div id="html_136c5e122f9546f7aed28f2b1a968a1e" style="width: 100.0%; height: 100.0%;">Pendleton, Cincinnati</div>')[0];
+                popup_98ac7724cd9c423db17feb6dfd70f1cb.setContent(html_136c5e122f9546f7aed28f2b1a968a1e);
+            
+
+            circle_marker_6a78c6fdb49c422c9183d0fe6adfa901.bindPopup(popup_98ac7724cd9c423db17feb6dfd70f1cb);
+
+            
+        
+    
+            var circle_marker_23b8314e3797446bbd4c10ab051b6850 = L.circleMarker(
+                [39.166175042822104,-84.5462799140002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_3d6ad6be5d7141729d41bea8f0619e88 = L.popup({maxWidth: '300'});
+
+            
+                var html_03c5029285484d8e8bbcd298ad2e0e8b = $('<div id="html_03c5029285484d8e8bbcd298ad2e0e8b" style="width: 100.0%; height: 100.0%;">Pill Hill, Cincinnati</div>')[0];
+                popup_3d6ad6be5d7141729d41bea8f0619e88.setContent(html_03c5029285484d8e8bbcd298ad2e0e8b);
+            
+
+            circle_marker_23b8314e3797446bbd4c10ab051b6850.bindPopup(popup_3d6ad6be5d7141729d41bea8f0619e88);
+
+            
+        
+    
+            var circle_marker_43a29f32de44407496024e9902a2f675 = L.circleMarker(
+                [39.18358000000006,-84.42468999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_c9595c28cadb45258d9e794da867de45 = L.popup({maxWidth: '300'});
+
+            
+                var html_39f04010c2b74a639031415fecf2c0f3 = $('<div id="html_39f04010c2b74a639031415fecf2c0f3" style="width: 100.0%; height: 100.0%;">Pleasant Ridge, Cincinnati</div>')[0];
+                popup_c9595c28cadb45258d9e794da867de45.setContent(html_39f04010c2b74a639031415fecf2c0f3);
+            
+
+            circle_marker_43a29f32de44407496024e9902a2f675.bindPopup(popup_c9595c28cadb45258d9e794da867de45);
+
+            
+        
+    
+            var circle_marker_581e1db4820449ce93e3aaa8047f6d3d = L.circleMarker(
+                [39.110340000000065,-84.57602999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_cdf6bc34df3849d8bd6cf5966916eb86 = L.popup({maxWidth: '300'});
+
+            
+                var html_8691ca3ccf994ab2902d7dc16ae49ecf = $('<div id="html_8691ca3ccf994ab2902d7dc16ae49ecf" style="width: 100.0%; height: 100.0%;">Price Hill, Cincinnati</div>')[0];
+                popup_cdf6bc34df3849d8bd6cf5966916eb86.setContent(html_8691ca3ccf994ab2902d7dc16ae49ecf);
+            
+
+            circle_marker_581e1db4820449ce93e3aaa8047f6d3d.bindPopup(popup_cdf6bc34df3849d8bd6cf5966916eb86);
+
+            
+        
+    
+            var circle_marker_8f027f6391374378b65c233f92549c05 = L.circleMarker(
+                [39.20572477805943,-84.38643589254502],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_e171338f848c4e238db7bd25a49c3a8a = L.popup({maxWidth: '300'});
+
+            
+                var html_e2990e5b0c1b4bf1902b1fc6669e31c4 = $('<div id="html_e2990e5b0c1b4bf1902b1fc6669e31c4" style="width: 100.0%; height: 100.0%;">Queensgate, Cincinnati</div>')[0];
+                popup_e171338f848c4e238db7bd25a49c3a8a.setContent(html_e2990e5b0c1b4bf1902b1fc6669e31c4);
+            
+
+            circle_marker_8f027f6391374378b65c233f92549c05.bindPopup(popup_e171338f848c4e238db7bd25a49c3a8a);
+
+            
+        
+    
+            var circle_marker_fe33dc48a91b46eb800ae3a42aad275b = L.circleMarker(
+                [39.07746000000003,-84.60222999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_0d65459bc5a1429eb8fb210a51b90c93 = L.popup({maxWidth: '300'});
+
+            
+                var html_0b2dbcd0bcfb49a680a3a308b893c193 = $('<div id="html_0b2dbcd0bcfb49a680a3a308b893c193" style="width: 100.0%; height: 100.0%;">Riverside, Cincinnati</div>')[0];
+                popup_0d65459bc5a1429eb8fb210a51b90c93.setContent(html_0b2dbcd0bcfb49a680a3a308b893c193);
+            
+
+            circle_marker_fe33dc48a91b46eb800ae3a42aad275b.bindPopup(popup_0d65459bc5a1429eb8fb210a51b90c93);
+
+            
+        
+    
+            var circle_marker_5cc5b58564084322806fd84c1575c364 = L.circleMarker(
+                [39.19478000000004,-84.46242999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_47a336e2c03b414baff15313d85cf8c1 = L.popup({maxWidth: '300'});
+
+            
+                var html_d7e02e3fdcab4445b3b4294cc98a7b36 = $('<div id="html_d7e02e3fdcab4445b3b4294cc98a7b36" style="width: 100.0%; height: 100.0%;">Roselawn, Cincinnati</div>')[0];
+                popup_47a336e2c03b414baff15313d85cf8c1.setContent(html_d7e02e3fdcab4445b3b4294cc98a7b36);
+            
+
+            circle_marker_5cc5b58564084322806fd84c1575c364.bindPopup(popup_47a336e2c03b414baff15313d85cf8c1);
+
+            
+        
+    
+            var circle_marker_d71856d557bf475aa73891bacd95f3ca = L.circleMarker(
+                [39.102910000000065,-84.68130999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_cd7ff7517bc445499bd313b5a2d6d66f = L.popup({maxWidth: '300'});
+
+            
+                var html_8ab21ab1d38545148f0420c7e8ca8c14 = $('<div id="html_8ab21ab1d38545148f0420c7e8ca8c14" style="width: 100.0%; height: 100.0%;">Sayler Park, Cincinnati</div>')[0];
+                popup_cd7ff7517bc445499bd313b5a2d6d66f.setContent(html_8ab21ab1d38545148f0420c7e8ca8c14);
+            
+
+            circle_marker_d71856d557bf475aa73891bacd95f3ca.bindPopup(popup_cd7ff7517bc445499bd313b5a2d6d66f);
+
+            
+        
+    
+            var circle_marker_9d465beb21e948f2aca80c84c53f502e = L.circleMarker(
+                [39.09304000000003,-84.57291999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_d82d2907239b4088bcc55e5ad434b58c = L.popup({maxWidth: '300'});
+
+            
+                var html_f96a94a9f4cf46209569d23ea362f6dc = $('<div id="html_f96a94a9f4cf46209569d23ea362f6dc" style="width: 100.0%; height: 100.0%;">Sedamsville, Cincinnati</div>')[0];
+                popup_d82d2907239b4088bcc55e5ad434b58c.setContent(html_f96a94a9f4cf46209569d23ea362f6dc);
+            
+
+            circle_marker_9d465beb21e948f2aca80c84c53f502e.bindPopup(popup_d82d2907239b4088bcc55e5ad434b58c);
+
+            
+        
+    
+            var circle_marker_e7d5345d73854494b1fcbaa3c7106c0e = L.circleMarker(
+                [39.15346000000005,-84.55004999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_fe052575638a47d39ff7f3188c2be605 = L.popup({maxWidth: '300'});
+
+            
+                var html_ff5419bd80074378928016f91303843f = $('<div id="html_ff5419bd80074378928016f91303843f" style="width: 100.0%; height: 100.0%;">South Cumminsville, Cincinnati</div>')[0];
+                popup_fe052575638a47d39ff7f3188c2be605.setContent(html_ff5419bd80074378928016f91303843f);
+            
+
+            circle_marker_e7d5345d73854494b1fcbaa3c7106c0e.bindPopup(popup_fe052575638a47d39ff7f3188c2be605);
+
+            
+        
+    
+            var circle_marker_14d10c222e4f466db2cd98518f4d66ec = L.circleMarker(
+                [39.127560000000074,-84.55537999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_6c6974e79e2d4811a0c4770cd04c25e7 = L.popup({maxWidth: '300'});
+
+            
+                var html_3de1056861a84f23a9291b31d6e6fe80 = $('<div id="html_3de1056861a84f23a9291b31d6e6fe80" style="width: 100.0%; height: 100.0%;">South Fairmount, Cincinnati</div>')[0];
+                popup_6c6974e79e2d4811a0c4770cd04c25e7.setContent(html_3de1056861a84f23a9291b31d6e6fe80);
+            
+
+            circle_marker_14d10c222e4f466db2cd98518f4d66ec.bindPopup(popup_6c6974e79e2d4811a0c4770cd04c25e7);
+
+            
+        
+    
+            var circle_marker_98a21a88309c4b9bab2aabe04b131385 = L.circleMarker(
+                [39.16507786537906,-84.51579326345967],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_04fddbfadb63414db8eee7ba6f9fc7dd = L.popup({maxWidth: '300'});
+
+            
+                var html_cc6c9cc59e6c45a1b53d5160b83854b4 = $('<div id="html_cc6c9cc59e6c45a1b53d5160b83854b4" style="width: 100.0%; height: 100.0%;">Spring Grove Village, Cincinnati</div>')[0];
+                popup_04fddbfadb63414db8eee7ba6f9fc7dd.setContent(html_cc6c9cc59e6c45a1b53d5160b83854b4);
+            
+
+            circle_marker_98a21a88309c4b9bab2aabe04b131385.bindPopup(popup_04fddbfadb63414db8eee7ba6f9fc7dd);
+
+            
+        
+    
+            var circle_marker_7d9b1f1254364b36a83049375543b3f5 = L.circleMarker(
+                [39.259696807457,-84.34504768233852],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_70b3fcc07f0741ae85ee03bf34da4951 = L.popup({maxWidth: '300'});
+
+            
+                var html_7453164664ea4b40902b36de85b808aa = $('<div id="html_7453164664ea4b40902b36de85b808aa" style="width: 100.0%; height: 100.0%;">Villages at Roll Hill, Cincinnati</div>')[0];
+                popup_70b3fcc07f0741ae85ee03bf34da4951.setContent(html_7453164664ea4b40902b36de85b808aa);
+            
+
+            circle_marker_7d9b1f1254364b36a83049375543b3f5.bindPopup(popup_70b3fcc07f0741ae85ee03bf34da4951);
+
+            
+        
+    
+            var circle_marker_d5d3b6785ee342fca414a4a0d8d8182a = L.circleMarker(
+                [39.12720000000007,-84.48540999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_0ec06423a21546869bc05ea77c3d8af6 = L.popup({maxWidth: '300'});
+
+            
+                var html_a224b67926404386aae3a7e8e3b8419f = $('<div id="html_a224b67926404386aae3a7e8e3b8419f" style="width: 100.0%; height: 100.0%;">Walnut Hills, Cincinnati</div>')[0];
+                popup_0ec06423a21546869bc05ea77c3d8af6.setContent(html_a224b67926404386aae3a7e8e3b8419f);
+            
+
+            circle_marker_d5d3b6785ee342fca414a4a0d8d8182a.bindPopup(popup_0ec06423a21546869bc05ea77c3d8af6);
+
+            
+        
+    
+            var circle_marker_e36099dca45a447a9f78da755a049d9c = L.circleMarker(
+                [39.10882000000004,-84.53271999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_4a13f8a54ded4e16ac8c9d8008404677 = L.popup({maxWidth: '300'});
+
+            
+                var html_c728e4f034874ccb8b93a1180d4e3094 = $('<div id="html_c728e4f034874ccb8b93a1180d4e3094" style="width: 100.0%; height: 100.0%;">West End, Cincinnati</div>')[0];
+                popup_4a13f8a54ded4e16ac8c9d8008404677.setContent(html_c728e4f034874ccb8b93a1180d4e3094);
+            
+
+            circle_marker_e36099dca45a447a9f78da755a049d9c.bindPopup(popup_4a13f8a54ded4e16ac8c9d8008404677);
+
+            
+        
+    
+            var circle_marker_af33f5fbdda045aa93cfef5c278fade9 = L.circleMarker(
+                [39.12398629292,-84.6116675273561],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_05fa88fb4eb44643b6f67f6c7ea75300 = L.popup({maxWidth: '300'});
+
+            
+                var html_0aa5824362284624ba61a9d529c60f2c = $('<div id="html_0aa5824362284624ba61a9d529c60f2c" style="width: 100.0%; height: 100.0%;">Western Hills, Cincinnati</div>')[0];
+                popup_05fa88fb4eb44643b6f67f6c7ea75300.setContent(html_0aa5824362284624ba61a9d529c60f2c);
+            
+
+            circle_marker_af33f5fbdda045aa93cfef5c278fade9.bindPopup(popup_05fa88fb4eb44643b6f67f6c7ea75300);
+
+            
+        
+    
+            var circle_marker_3a38c81be1ce4d0d87b8301e74a201c0 = L.circleMarker(
+                [39.14857000000006,-84.59848999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_4843beb9c0fe48d39fca0673b00d3068 = L.popup({maxWidth: '300'});
+
+            
+                var html_120efac3060040eca5b324eb43907b50 = $('<div id="html_120efac3060040eca5b324eb43907b50" style="width: 100.0%; height: 100.0%;">Westwood, Cincinnati</div>')[0];
+                popup_4843beb9c0fe48d39fca0673b00d3068.setContent(html_120efac3060040eca5b324eb43907b50);
+            
+
+            circle_marker_3a38c81be1ce4d0d87b8301e74a201c0.bindPopup(popup_4843beb9c0fe48d39fca0673b00d3068);
+
+            
+        
+    
+            var circle_marker_97f77e7c22674d6caf0eb9be76b732e8 = L.circleMarker(
+                [39.189320000000066,-84.51106999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b6ee5e0586894f81a2e5ae9ddba22845);
+            
+    
+            var popup_91826b39acef4cf5acd8ea98d330fd5e = L.popup({maxWidth: '300'});
+
+            
+                var html_4383066fd9eb46cc9759c2e4db1f2130 = $('<div id="html_4383066fd9eb46cc9759c2e4db1f2130" style="width: 100.0%; height: 100.0%;">Winton Hills, Cincinnati</div>')[0];
+                popup_91826b39acef4cf5acd8ea98d330fd5e.setContent(html_4383066fd9eb46cc9759c2e4db1f2130);
+            
+
+            circle_marker_97f77e7c22674d6caf0eb9be76b732e8.bindPopup(popup_91826b39acef4cf5acd8ea98d330fd5e);
+
+            
+        
+</script>
